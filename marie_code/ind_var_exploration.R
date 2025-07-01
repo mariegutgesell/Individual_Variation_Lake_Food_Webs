@@ -934,4 +934,4 @@ library(mapview)
 
 sites_coord <- st_as_sf(abiotic_df, coords = c("Longitude", "Latitude"), crs = 4326)
 mapview(sites_coord, zcol = "summer_air_temp", col.regions = colorRampPalette(c("blue", "red"))(10), legend = TRUE)
-cex = "Area_ha", 
+#cex = "Area_ha", 
